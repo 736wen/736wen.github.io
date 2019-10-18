@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>成绩单异常处理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/成绩单异常处理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/成绩单异常处理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u976" class="ax_default box_3">
+        <div id="u976_div" class=""></div>
+        <div id="u976_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">成绩单学生姓名与班级内的学生姓名匹配（忽略学生备注名）</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单的学生不在班级：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理1：删除</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理2：继续发布</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩保留，发布成绩单后创建该学生到此班级；学生姓名同表格中的学生姓名，当家子加入班级绑定孩子时，需要将此孩子关联至家长，关联家长成功后，家长可查看学生的成绩单</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单的学生未绑定家长：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理1：删除</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理2：继续发布</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩保留，可查看web端 移动端；当家子加入班级绑定孩子时，需要将此孩子关联至家长，关联家长成功后，家长可查看学生的成绩单</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单的学生成绩为空：（需补全信息）</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理1：删除</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理2：补充成绩</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理3：缺考</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">提示老师需补充完整，缺考或没成绩，学生的成绩不可为空</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单的学生重名：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩单中存在相同名字的学生</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理1：删除某个学生</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理2：修改某个学生的名字</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">处理3：家长的信息关联重名学生；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">例如：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩单中有小明和小明，则提供这2个小明家长的信息（头像、姓名、手机号、关系），老师将家长与孩子关联；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">关联成功后保存记录，下次发布成绩单不在提示小明与小明重名。（若新增第三个小明，则需要重新关联）；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">*若多组学生重名，则需要分组处理重名学生，例如：小明和小明、小红和小红</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">多重校验</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">1、成绩单中的学生是否都在当前班级＞2、成绩单里的学生成绩是否全部录入＞3、成绩单的学生是否绑定家长=成绩单学生重名</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u977" class="ax_default _文本">
+        <div id="u977_div" class=""></div>
+        <div id="u977_text" class="text ">
+          <ul><li style=""><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单中的学生不在班级内</span></li></ul><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩保留，提示老师家长收不到成绩</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">删除学生</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">创建学生</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><ul><li style=""><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单中的学生无成绩</span></li></ul><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">删除学生</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">缺考</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">录入成绩</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><ul><li style=""><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单未覆盖班级的全部学生</span></li></ul><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">缺考</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">录入成绩</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">忽略</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><ul><li style=""><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单中的学生未绑定家长</span></li></ul><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">成绩保留，提示老师家长绑定后才可收到成绩</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">删除学生</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;"><br></span></p><ul><li style=""><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">*成绩单中的学生重复了</span></li></ul><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">删除学生</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">修改学生姓名</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">选择家长</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
